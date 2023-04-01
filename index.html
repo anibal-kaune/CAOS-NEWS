@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> CAOS NEWS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!--Estilos CSS aquí-->
+
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <!--Nav-bar-->
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color:rgb(175, 61, 61)">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                CAOS NEWS</a>
+                <!-- Si se desea agregar una imagen (logo) a la barra se elimina la linea con la clase 
+                    .navbar-brand y se reemplaza por la siguiente linea de codigo: -->
+            <!-- <nav class="navbar bg-body-tertiary">
+                <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                </a>
+                </div>
+            </nav> -->
+
+            <!-- Si se desea agregar una imagen con texto al lado se escribe la siguiente linea:
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                            Bootstrap
+                        </a>
+                    </div>
+                </nav> 
+                Nota: al lado de img se debe agregar class="d-inline-block align-text-top"-->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Actualidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Regiones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Internacional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Politica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Economia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Deportes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Tendencias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Cultura</a>
+                </li>
+                
+
+                <!-- Opcion desplegable -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-success me-3" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        
+        <!--Base nav-->
+        <di>
+          <ul class="nav justify-content-end" style="background-color: rgb(175, 61, 61)">
+              <div class="text-end">
+                <a href="contacto.html"><button type="button" class="btn btn-light text-dark me-2">Contáctanos</button></a>
+                <a href="login.html"><button type="button" class="btn btn-light text-dark me-2">Ingresar</button></a>
+                <a href="registro.html"><button type="button" class="btn btn-primary me-2">Regístrate</button></a>
+                
+              </div>
+          </ul>
+        </di>
+    </header>
+
+    <section>
+      <!--Carrucel-->
+      <br>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        </div>
+        <div class="carousel-inner" style="text-align: center;">
+          
+          <div class="carousel-item active" style="text-align: center;">
+            <img src="img/aviar.jpg" width="1200" height="500" style="text-align: center;" >
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Influenza aviar: Alerta Temprana Preventiva en 13 regiones del país</h1>
+                <p>El Senapred determinó la medida ante el evento zoosanitario a raíz del virus de Influenza Aviar de Alta Patogenicidad (H5N1).</p>
+                <p><a class="btn btn-lg btn-danger" href="noticia.html">LEER MÁS</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="text-align: center;">
+            <img src="img/2023-03-13T201752Z_382644092.jpg" width="1200" height="500">  
+            <div class="container">
+              <div class="carousel-caption text-start"> 
+                <h1>Cristian Garin ya tiene rival para debutar en el ATP 250 de Houston</h1>
+                <p>El nacional viene de correctas actuaciones en los ATP Masters 1.000 de Indian Wells y Miami.</p>
+                <p><a class="btn btn-lg btn-danger" href="#">LEER MÁS</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="text-align: center;">
+            <img src="img/pope.jpg" width="1200" height="500">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Papa Francisco es dado de alta y deja el hospital: "Todavía estoy vivo. No tuve miedo"</h1>
+                <p>"Sentí como un malestar. Como cuando tienes mal el estómago y te sientes mal", relató el sumo pontífice.</p>
+                <p><a class="btn btn-lg btn-danger" href="#">LEER MÁS</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Atras</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+
+      </div>
+    
+      <br>
+      <br>
+      <h2 style="text-align: center;">Destacamos</h2>
+      <hr>
+      <br>
+      
+    <!--Grid Card destacados-->
+    <div class="row row-cols-1 row-cols-md-1 g-4 mt-3">
+      <div class="col">
+        <div class="card">
+          <img src="img/PC-GENERICO.png" class="card-img-top" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Comisión Experta: conoce el detalle de todas las propuestas constitucionales</h5>
+            <p class="card-text">Este viernes se conoció el detalle de las 14 iniciativas de norma presentadas por las subcomisiones de la Comisión Experta que comienzan a detallar el contenido del anteproyecto constitucional. Revisa el detalle de las propuestas en la siguiente nota.</p>
+            <a href="#" class="btn btn-danger">LEER MÁS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/enjoy_casino_juegos_apuestas.jpg" class="card-img-top" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Denuncia de colusión complica a 3 cadenas de casinos</h5>
+            <p class="card-text">Una investigación periodística reveló un informe donde altos ejecutivos se coordinan para la licitación de los recintos. </p>
+            <a href="#" class="btn btn-danger">LEER MÁS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/israel.jpg" class="card-img-top" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cómo la crisis en Israel se volvió una batalla por la identidad del país</h5>
+            <p class="card-text">La nación de Medio Oriente se encuentra en un punto crítico donde los dos lados opuestos buscan dar forma a su futuro.</p>
+            <a href="#" class="btn btn-danger">LEER MÁS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/elon_twitter.jpg" class="card-img-top" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Musk dice que Twitter perdió más de la mitad de su valor desde su compra</h5>
+            <p class="card-text">La empresa cayó a los 20.000 millones de dólares, menos de la mitad de lo que él pagó el pasado octubre.</p>
+            <a href="#" class="btn btn-danger">LEER MÁS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <br>
+      <br>
+      <h2 style="text-align: center;">Internacional</h2>
+      <hr>
+      <br>
+
+      <!--Cards productos-->
+      <div class="row row-cols-2 row-cols-md-6 g-3 mt-3 justify-content-center">
+        
+        <div class="col">
+          <div class="card h-100" style="height: auto; width: 300;">
+            <img src="img/Sub_17.jpeg" height="200" width="300" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align:start;">Selección chilena sub-17 debuta en Sudamericano de la categoría ante Brasil</h5>
+              <p class="card-text">Chile tendrá la oportunidad de oro de situarse en los puestos de avanzada del Grupo A, considerando que Uruguay y Colombia empataron sin goles durante la jornada del jueves.</p>
+              <a href="#" class="btn btn-danger">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="height: auto;">
+            <img src="img/alexis.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Al Marsella no le basta con el entusiasmo de Alexis y cede terreno en la pelea por el título</h5>
+              <p class="card-text">Con el nacional como titular, el elenco marsellés igualó 1-1 ante Montpellier por la fecha 29.</p>
+              <br><br><br>
+              <a href="#" class="btn btn-danger">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="height: auto;">
+            <img src="img/nublense.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Ñublense derrota a O'Higgins y llegará con buen ánimo al debut copero</h5>
+              <p class="card-text">El elenco chillanejo sumó una victoria que le da confianza antes de enfrentar a Racing Club.</p>
+              <br><br><br><br>
+              <a href="#" class="btn btn-danger ">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="height: auto;">
+            <img src="img/brereton.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">La respuesta del DT de Blackburn ante inminente fichaje de Brereton en el Villarreal</h5>
+              <p class="card-text">El danés John Dahl Tomasson se refirió a la cada vez más cercana partida del delantero chileno.</p>
+              <br><br><br>
+              <a href="#" class="btn btn-danger">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </article>
+
+    <article>
+
+      <br>
+      <br>
+      <h2 style="text-align: center;">Deportes</h2>
+      <hr>
+      <br>
+      
+      <div class="row row-cols-2 row-cols-md-6 g-3 mt-3 justify-content-center">
+        
+        <div class="col">
+          <div class="card h-100" style="height: auto; width: 300;">
+            <img src="img/Sub_17.jpeg" height="200" width="300" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align:start;">Selección chilena sub-17 debuta en Sudamericano de la categoría ante Brasil</h5>
+              <p class="card-text">Chile tendrá la oportunidad de oro de situarse en los puestos de avanzada del Grupo A, considerando que Uruguay y Colombia empataron sin goles durante la jornada del jueves.</p>
+              <a href="#" class="btn btn-danger">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="height: auto;">
+            <img src="img/alexis.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Al Marsella no le basta con el entusiasmo de Alexis y cede terreno en la pelea por el título</h5>
+              <p class="card-text">Con el nacional como titular, el elenco marsellés igualó 1-1 ante Montpellier por la fecha 29.</p>
+              <br><br><br>
+              <a href="#" class="btn btn-danger">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="height: auto;">
+            <img src="img/nublense.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Ñublense derrota a O'Higgins y llegará con buen ánimo al debut copero</h5>
+              <p class="card-text">El elenco chillanejo sumó una victoria que le da confianza antes de enfrentar a Racing Club.</p>
+              <br><br><br><br>
+              <a href="#" class="btn btn-danger ">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="height: auto;">
+            <img src="img/brereton.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">La respuesta del DT de Blackburn ante inminente fichaje de Brereton en el Villarreal</h5>
+              <p class="card-text">El danés John Dahl Tomasson se refirió a la cada vez más cercana partida del delantero chileno.</p>
+              <br><br><br>
+              <a href="#" class="btn btn-danger">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </article>
+
+    <article>
+      
+      <br>
+      <br>
+      <h2 style="text-align: center;">Nuestros periodistas</h2>
+      <hr>
+      <br>
+
+      <div class="row row-cols-2 row-cols-md-6 g-3 mt-3 justify-content-center">
+        
+        <div class="col">
+          <div class="card h-25" style="height: auto;">
+            <img src="img/Red-Hot-Chili-Peppers-Stadium-Arcadium.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align:start;">Vinilo</h5>
+              <h5 class="card-title" style="text-align: start;">Red Hot Chili Pepper / Stadium Arcadium</h5>
+              <p class="card-text"><br><br><s>$ 9.990</s></p>
+              <p class="card-text" style="color:green"><strong>$ 6.990</strong></p>
+              <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-25" style="height: auto;">
+            <img src="img/Abba.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Cassette</h5>
+              <h5 class="card-title" style="text-align: start;">Abba / Greatest Hits Gold 30th Anniversary</h5>
+              <p class="card-text"><br><br><s>$ 19.990</s></p>
+              <p class="card-text" style="color:green"><strong>$ 15.990</strong></p>
+              <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-25" style="height: auto;">
+            <img src="img/Billie Eilish.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Cassette</h5>
+              <h5 class="card-title" style="text-align: start;">Billie Eilish / Happier Than Ever</h5>
+              <p class="card-text"><br><br><br><s>$ 46.990</s></p>
+              <p class="card-text" style="color:green"><strong>$ 35.990</strong></p>
+              <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-25" style="height: auto;">
+            <img src="img/Guardians of the galaxy.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="text-align: start;">Cassette</h5>
+              <h5 class="card-title" style="text-align: start;">Marvel's Guardians of the Galaxy: Cosmic Mix Vol. 1</h5>
+              <p class="card-text"><br><s>$ 39.990</s></p>
+              <p class="card-text" style="color:green"><strong>$ 29.990</strong></p>
+              <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </article>
+
+    </section>
+
+    <!--Footer-->
+    <footer class="container py-3">
+      <hr>
+      <div class="row">
+
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+          <small class="d-block mb-3 text-body-secondary">&copy; 2017–2023</small>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Sobre nosotros</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">¿Quienes somos?</a></li>
+            <li><a class="link-secondary" href="#">Contáctanos</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Síguenos en</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Facebook</a></li>
+            <li><a class="link-secondary" href="#">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Preguntas frecuentes</h5>
+          <ul class="list-unstyled text-small">
+
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Acerca de</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Privacidad</a></li>
+            <li><a class="link-secondary" href="#">Terminos y condiciones</a></li>
+            <li><a class="link-secondary" href="#">Equipo de desarrollo</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+</html>
