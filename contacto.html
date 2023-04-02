@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
+    <link rel="shortcut icon" href="img/Lorenz_attractor_yb.svg.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
 </head>
@@ -12,97 +13,172 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     
     <header>
-        <nav class="navbar navbar-expand-lg " style="background-color:rgb(175, 61, 61)">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                CAOS NEWS</a>
-                <!-- Si se desea agregar una imagen (logo) a la barra se elimina la linea con la clase 
-                    .navbar-brand y se reemplaza por la siguiente linea de codigo: -->
-            <!-- <nav class="navbar bg-body-tertiary">
-                <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-                </a>
+      <nav class="navbar navbar-expand-lg " style="background-color:black;">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="color: white;">
+              <img src="img/Lorenz_attractor_yb.svg.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top" >
+              CAOS NEWS</a>
+              <!-- Si se desea agregar una imagen (logo) a la barra se elimina la linea con la clase 
+                  .navbar-brand y se reemplaza por la siguiente linea de codigo: -->
+          <!-- <nav class="navbar bg-body-tertiary">
+              <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+              </a>
+              </div>
+          </nav> -->
+
+          <!-- Si se desea agregar una imagen con texto al lado se escribe la siguiente linea:
+              <nav class="navbar bg-body-tertiary">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                          Bootstrap
+                      </a>
+                  </div>
+              </nav> 
+              Nota: al lado de img se debe agregar class="d-inline-block align-text-top"-->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(59, 59, 59);">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:white">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="categoria.html" style="color: white;">Actualidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white;">Regiones</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#" style="color: white;">Internacional</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white;">Politica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white;">Economia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white;">Deportes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white;">Tendencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white;">Cultura</a>
+              </li>
+              
+
+              <!-- Opcion desplegable -->
+              <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li> -->
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-success me-3" type="submit">Buscar</button>
+              </form>
+          </div>
+          </div>
+      </nav>
+      
+      <!--Base nav-->
+      <di>
+        <ul class="nav justify-content-end" style="background-color: black">
+            <div class="text-end">
+              <a href="contacto.html"><button type="button" class="btn btn-light text-dark me-2">Contáctanos</button></a>
+              <a href="login.html"><button type="button" class="btn btn-light text-dark me-2">Ingresar</button></a>
+              <a href="registro.html"><button type="button" class="btn btn-primary me-2">Regístrate</button></a>
+              
+            </div>
+        </ul>
+      </di>
+  </header>
+
+  <main>
+    <div class="row g-5">
+      <div class="col-md-12 col-lg-12">
+        <h4 class="mb-3 mt-4" style="text-align: center;">Contactanos</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="phone" placeholder="+56912345678" required>
+              <div class="invalid-feedback">
+                Please enter your phone number for updates.
+              </div>
+            </div>
+            
+            <div class="col-12">
+                <label for="address" class="form-label">Región</label>
+                <input type="text" class="form-control" id="region" placeholder="" required>
+                <div class="invalid-feedback">
+                  Please enter a valid region.
                 </div>
-            </nav> -->
+              </div>
+            
+              <div class="col-12">
+                <label for="address" class="form-label">Comuna</label>
+                <input type="text" class="form-control" id="comuna" placeholder="" required>
+                <div class="invalid-feedback">
+                  Please enter a valid city.
+                </div>
+              </div>
 
-            <!-- Si se desea agregar una imagen con texto al lado se escribe la siguiente linea:
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                            Bootstrap
-                        </a>
-                    </div>
-                </nav> 
-                Nota: al lado de img se debe agregar class="d-inline-block align-text-top"-->
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Actualidad</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Regiones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Internacional</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Politica</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Economia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Deportes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Tendencias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Cultura</a>
-                </li>
-                
-
-                <!-- Opcion desplegable -->
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li> -->
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-success me-3" type="submit">Buscar</button>
-                </form>
-            </div>
-            </div>
-        </nav>
-        
-        <!--Base nav-->
-        <di>
-          <ul class="nav justify-content-end" style="background-color: rgb(175, 61, 61)">
-              <div class="text-end">
-                <a href="contacto.html"><button type="button" class="btn btn-light text-dark me-2">Contáctanos</button></a>
-                <a href="login.html"><button type="button" class="btn btn-light text-dark me-2">Ingresar</button></a>
-                <a href="registro.html"><button type="button" class="btn btn-primary me-2">Regístrate</button></a>
+              <div class="form col-12">
+                <label class="form-label" for="form-message">Mensaje</label>
+                <textarea class="form-control" id="form-message" rows="4" placeholder="Mensaje"></textarea>
                 
               </div>
-          </ul>
-        </di>
-    </header>
 
+          <div class="form-check">
+            
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">Acepto los terminos de uso (<a href="">Leer</a>)</label>
+          </div>
+
+          
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
 
     <!--Footer-->
     <footer class="container py-3">
